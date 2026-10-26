@@ -1,0 +1,124 @@
+/* 
+  Paleta de Cores Utilizada:
+  - Base Escura (Fundo): #272635
+  - Base Clara (Texto Principal): #A6A6A8
+  - Detalhes e Destaques: #B1E5F2
+  - Suporte/Bordas: #CECECE
+  - Leitura/Cartões: #E8E9F3
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #272635;
+  color: #A6A6A8;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.game-container {
+  width: 100%;
+  max-width: 650px;
+  background-color: #272635;
+  border: 2px solid #CECECE;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #CECECE;
+  padding-bottom: 15px;
+}
+
+h1 {
+  color: #B1E5F2;
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+header p {
+  color: #A6A6A8;
+  font-size: 0.95rem;
+}
+
+.card {
+  background-color: #272635;
+  padding: 15px 0;
+}
+
+.text-block {
+  background-color: #E8E9F3;
+  color: #272635;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  border-left: 6px solid #B1E5F2;
+}
+
+.options-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.action-group {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+.btn {
+  background-color: #272635;
+  color: #A6A6A8;
+  border: 2px solid #A6A6A8;
+  padding: 12px 18px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.btn:hover, .btn:focus {
+  background-color: #B1E5F2;
+  color: #272635;
+  border-color: #B1E5F2;
+  outline: none;
+}
+
+.btn-primary {
+  background-color: #B1E5F2;
+  color: #272635;
+  border-color: #B1E5F2;
+  font-weight: bold;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #E8E9F3;
+  color: #272635;
+  border-color: #CECECE;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #A6A6A8;
+  border-top: 1px solid #CECECE;
+  padding-top: 10px;
+}

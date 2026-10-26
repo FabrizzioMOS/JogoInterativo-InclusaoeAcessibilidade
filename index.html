@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jornada da Inclusão e Acessibilidade</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="game-container" role="main">
+    <header>
+      <h1 id="game-title">Jornada da Inclusão</h1>
+      <p id="game-subtitle">Uma experiência interativa sobre empatia e acessibilidade.</p>
+    </header>
+
+    <section id="content-card" class="card">
+      <div id="story-text" class="text-block" tabindex="0">
+        <!-- O texto da história será inserido via JS -->
+      </div>
+
+      <div id="options-container" class="options-group">
+        <!-- Os botões de escolha serão inseridos via JS -->
+      </div>
+
+      <div id="action-container" class="action-group">
+        <button id="next-btn" class="btn btn-primary" onclick="proxima()" style="display: none;">
+          Próxima
+        </button>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Jogo da Acessibilidade - Desenvolvido para Conscientização</p>
+    </footer>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
